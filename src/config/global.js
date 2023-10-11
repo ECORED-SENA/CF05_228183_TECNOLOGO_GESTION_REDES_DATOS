@@ -40,13 +40,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Análisis y planeación',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Preparación',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Prevención',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Respuestas',
+            hash: 't_1_3',
           },
         ],
       },
@@ -54,13 +64,35 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Gestión y monitoreo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Gestión de fallas',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Administración de configuración',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Gestión de inventario',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Gestión de <em>software</em>',
+            hash: 't_2_4',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Gestión del rendimiento',
         desarrolloContenidos: true,
       },
     ],
