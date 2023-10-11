@@ -143,32 +143,67 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1.1.2 Análisis de Riesgos',
+      referencia:
+        'Cisco. (2020). CCNA: <em>Switching, Routing, and Wireless Essentials.</em> Cisco Networking Academy.',
+      tipo: 'Sitio web',
+      link:
+        'https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '2. Gestión y monitoreo',
+      referencia:
+        'SJteam. (2020). <em>Monitorea tu red sin ser experto en seguridad informática.</em> [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=Oseq3wh2J4c&ab_channel=SJteam',
+    },
+    {
+      tema: '3. Gestión del rendimient',
+      referencia:
+        'Díaz, G., Alzórriz, I., Sancristóbal, E., y Alonso M. (2014). <em>Procesos y herramientas para la seguridad de redes.</em> UNED',
+      tipo: 'Libro',
+      link:
+        'https://books.google.com.co/books?hl=en&lr=&id=dG4lAwAAQBAJ&oi=fnd&pg=PP1&dq=gesti%C3%B3n+de+la+seguridad+en+redes&ots=N7ZStUK8Eb&sig=cAvWdpzsHjtY4Zvs3VQidyQjkJE&redir_esc=y#v=onepage&q=gesti%C3%B3n%20de%20la%20seguridad%20en%20redes&f=false',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Biométrico',
+      significado:
+        'sistema que utiliza rasgos humanos únicos como medio de seguridad.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: '<em>Bug</em>',
+      significado: 'propiedad no deseada de un sistema.',
+    },
+    {
+      termino: 'DevOps',
+      significado:
+        'metodología de desarrollo de <em>software</em> que integra las capas de desarrollo, pruebas, implementación, calidad y gestión.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Díaz, G., Alzórriz, I., Sancristóbal, E., y Alonso M. (2014). Procesos y herramientas para la seguridad de redes. UNED.',
       link: '',
+    },
+    {
+      referencia:
+        'Cisco. (2005). Política de seguridad de la red: informe oficial de mejores prácticas.',
+      link:
+        'https://www.cisco.com/c/es_mx/support/docs/availability/high-availability/13601-secpol.html',
+    },
+    {
+      referencia:
+        'Google Cloud. (2020). Medición de DevOps: notificación proactiva de fallas.',
+      link:
+        'https://cloud.google.com/solutions/devops/devops-measurement-proactive-failure-notification/?hl=es',
+    },
+    {
+      referencia:
+        'Hurtado, C., L., Villarreal-López, E., y Villarreal-López, L. (2016). Detección y diagnóstico de fallas mediante técnicas de inteligencia artificial, un estado del arte. DYNA, 83(199).',
+      link: 'https://www.redalyc.org/journal/496/49648868002/html/',
     },
   ],
   creditos: [
@@ -192,8 +227,43 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jorge Eliécer Loaiza Muño',
+          cargo: 'Instructor',
+          centro:
+            'Centros de Servicios y Gestión Empresarial - Regional Antioquia',
+        },
+        {
+          nombre: 'Carlos Mauricio Tovar Artunduaga',
+          cargo: 'Instructor',
+          centro:
+            'Centros de Servicios y Gestión Empresarial - Regional Antioquia',
+        },
+        {
+          nombre: 'Claudia López Arboleda',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Deivis Eduard Ramírez Martíne',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Bogotá D.C.',
+        },
+        {
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro de gestión industrial - Regional distrito Capital',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional distrito Capital',
+        },
+        {
+          nombre: 'Miroslava González Hernández',
+          cargo: 'Diseñadora instruccional',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -203,13 +273,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Juan Daniel Polanco',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
