@@ -59,6 +59,70 @@
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 2. 
         span Áreas funcionales de la gestión de servicio
+      h4.text-center Áreas funcionales de la gestión de servicio
+      .contenedor-banderas
+        .contenedor-banderas__bandera
+          p.text-center.text-white Gestión de fallas
+        .contenedor-banderas__bandera
+          p.text-center.text-white Gestión de costos
+        .contenedor-banderas__bandera
+          p.text-center.text-white Gestión de configuración
+        .contenedor-banderas__bandera
+          p.text-center.text-white Gestión de prestaciones
+        .contenedor-banderas__bandera
+          p.text-center.text-white Gestión de seguridad
+      .row.justify-content-center.mb-5
+        .col-lg-10
+      .tarjeta.bg-white.p-4.mb-4
+        .contenedor-cards
+          .contenedor-cards__card1
+            p.mb-0 Objeto gestionado
+          .contenedor-cards__card1
+            p.mb-0 Estado gestionado
+          .contenedor-cards__card1
+            p.mb-0 Relaciones gestionadas
+          .contenedor-cards__card1
+            p.mb-0 Reporte de alarmas
+        .contenedor-cards
+          .contenedor-cards__card2
+            p.mb-0 Gestión de informes de eventos
+          .contenedor-cards__card2
+            p.mb-0 Control de registros
+          .contenedor-cards__card2
+            p.mb-0 Informe de alarmas de seguridad
+          .contenedor-cards__card2
+            p.mb-0 Seguimiento de auditoría de seguridad
+          .contenedor-cards__card2
+            p.mb-0 Control de acceso
+        .contenedor-cards
+          .contenedor-cards__card1
+            p.mb-0 Medidor contable
+          .contenedor-cards__card1
+            p.mb-0 Monitoreo de carga de trabajo
+          .contenedor-cards__card1
+            p.mb-0 Gestión de pruebas
+          .contenedor-cards__card1
+            p.mb-0 Sumarización
+      .d-flex.justify-content-center.mb-4
+        img(src='@/assets/curso/temas/flecha.svg', alt='' style="width:35px ")
+      .tarjeta.bg-white.p-4.mb-4
+        .contenedor-cards
+          .contenedor-cards__card1
+            p.mb-0 Informe de Eventos
+          .contenedor-cards__card1
+            p.mb-0 Get Obtener
+          .contenedor-cards__card1
+            p.mb-0 Set Colocar
+          .contenedor-cards__card1
+            p.mb-0 Acción
+        .contenedor-cards
+          .contenedor-cards__card1(style="background-color: #e9e2ff")
+            p.mb-0 Crear
+          .contenedor-cards__card1(style="background-color: #e9e2ff")
+            p.mb-0 Borrar
+          .contenedor-cards__card1(style="background-color: #e9e2ff")
+            p.mb-0 Cancelar Get
+
     p.mb-5 Para el monitoreo de la red existen dos esquemas para gestionarla, esto de acuerdo con su tamaño, que se pueden nombrar como: centralizado y descentralizado.
     .row.justify-content-center.mb-5
       .col-lg-10
