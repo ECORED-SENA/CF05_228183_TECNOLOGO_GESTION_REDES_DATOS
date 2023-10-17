@@ -184,7 +184,7 @@
         .row.justify-content-center.mb-5
           .col-lg-5.mb-lg-0.mb-3
             img(src='@/assets/curso/temas/tema2/9.svg', alt='' style="width: 295px ").m-auto
-            .tarjeta.p-4(style="background-color: #CCBCFE; min-height: 400px")
+            .tarjeta.p-4(style="background-color: #CCBCFE; min-height: 300px")
               p La plataforma debe suministrar funciones básicas entre las cuales se tienen:
               ul.lista-ul--color
                 li.mb-0
@@ -212,7 +212,7 @@
           .col-lg-5.mb-lg-0.mb-3
             .contenido.h-100
               img(src='@/assets/curso/temas/tema2/10.svg', alt='' style="width: 295px ").m-auto
-              .tarjeta.p-4(style="background-color: #CCBCFE; min-height: 400px")
+              .tarjeta.p-4(style="background-color: #CCBCFE; min-height: 300px")
                 p Igualmente, debe mostrar estas características adicionales:
 
                 ul.lista-ul--color
@@ -408,7 +408,7 @@
     .row.justify-content-center.mb-lg-3
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center
             .col-2.mb-lg-0.mb-3 
               .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px ")
                 p.mb-0.text-center 1.
@@ -416,7 +416,7 @@
               p.text-white.mb-0 Actualizar el #[em software.]
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center
             .col-2.mb-lg-0.mb-3 
               .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 2.
@@ -424,7 +424,7 @@
               p.text-white.mb-0 Controlar versiones de #[em software.]
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center
             .col-2.mb-lg-0.mb-3 
               .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 3.
@@ -432,7 +432,7 @@
               p.text-white.mb-0 Definir información de configuración de recursos.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center
             .col-2.mb-lg-0.mb-3 
               .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 4.
@@ -441,7 +441,7 @@
     .row.justify-content-center.mb-lg-3
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center
             .col-2.mb-lg-0.mb-3 
               .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 5.
@@ -449,7 +449,7 @@
               p.text-white.mb-0 Inicializar y finalizar los servicios de red
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center
             .col-2.mb-lg-0.mb-3 
               .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 6.
@@ -457,7 +457,7 @@
               p.text-white.mb-0 Comprobar la información de configuración en el momento de un ataque, para asegurar que continúa en estado correcto.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center
             .col-2.mb-lg-0.mb-3 
               .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 7.
@@ -465,7 +465,7 @@
               p.text-white.mb-0 Modificar propiedades de recursos e informar al usuario de los cambios.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
-          .row.justify-content-center.align-items-center
+          .row.justify-content-center
             .col-2.mb-lg-0.mb-3 
               .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 8.
