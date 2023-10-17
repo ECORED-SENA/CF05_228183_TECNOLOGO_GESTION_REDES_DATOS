@@ -12,7 +12,7 @@
         p Estos dos conceptos a tratar son totalmente diferentes y se definirán a continuación.
           br
           br
-          |La #[b gestión] se refiere al control de los recursos en la red para evitar fallas en su funcionamiento y degradación de los servicios que presta, mientras que el monitoreo abarca el proceso continuo de recolección y análisis de datos que permitan anticipar inconvenientes en la red.
+          |La #[b gestión] se refiere al control de los recursos en la red para evitar fallas en su funcionamiento y degradación de los servicios que presta, mientras que el #[b monitoreo] abarca el proceso continuo de recolección y análisis de datos que permitan anticipar inconvenientes en la red.
           br
           br
           |En general, un sistema de gestión y monitoreo de redes permite controlar los recursos #[em software] y #[em hardware] en la red por medio del monitoreo constante a dichos recursos. También permite observar la red completa como una arquitectura única asignando a cada punto las direcciones y etiquetas, con propiedades concretas para cada componente y enlace del sistema conocido.
@@ -27,16 +27,16 @@
           p Llamado también NMS (#[em Network Monitoring System] - Sistema de Monitoreo de Red) actúa como como interfaz entre el sistema de gestión de red y el administrador de red posee una base de datos de información para gestión de red sacada de las bases de datos de todas las entidades a gestionar en la red. Ejecutan aplicaciones que supervisan, permanentemente, todos los dispositivos.
       .col-lg-6(data-aos="fade-right")
         .tarjeta.p-4.h-100(style="background-color:#CCBCFE ")
-          img(src='@/assets/curso/temas/tema2/2.svg', alt='' style="width: 80px").mb-3
+          img(src='@/assets/curso/temas/tema2/3.svg', alt='' style="width: 80px").mb-3
           h6 Agente
           p Poseen bases de datos local de información de administración. Es un elemento activo encargado de responder a las solicitudes de acción iniciadas en la estación de gestión y de manera asíncrona, proporciona información importante y no solicitada a la estación de gestión. Se trata de un módulo del #[em software] de gestión de red implantado en los dispositivos a gestionar. Los recursos de red a ser gestionados aparecen como objetos que hacen parte de la MIB (#[em Management Information Base] – Base de Información de Gestión).
     .tarjeta.p-4.h-100(style="background-color:#CCBCFE ").mb-5
-      .row.justify-content-center.align-items-center
-        .col-1.mb-lg-0.mb-3
-          img(src='@/assets/curso/temas/tema2/2.svg', alt='' style="width: 80px")
-        .col-lg-10
-          h6 Gestor o estación de gestión
-          p Llamado también NMS (#[em Network Monitoring System] - Sistema de Monitoreo de Red) actúa como como interfaz entre el sistema de gestión de red y el administrador de red posee una base de datos de información para gestión de red sacada de las bases de datos de todas las entidades a gestionar en la red. Ejecutan aplicaciones que supervisan, permanentemente, todos los dispositivos.
+      .row.align-items-center
+        .col-xl-1.mb-lg-0.mb-3
+          img(src='@/assets/curso/temas/tema2/4.svg', alt='' style="width: 80px").mb-2
+        .col-xl-10
+          h6 Dispositivos administrativos 
+          p Recogen y almacenan información de control y monitoreo.
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-right").mb-lg-0.mb-3
         p El protocolo SNMP (#[em Simple Network Management Protocol] - Protocolo de gestión de red simple) es el encargado de comunicar la estación de gestión y el agente; dicho protocolo cuenta con las siguientes capacidades clave:
@@ -66,17 +66,17 @@
           h5 Centralizado
           p Existe solo una estación de gestión para el control de los recursos de la red, es utilizado especialmente en las redes de Área Local LAN (#[em Local Area Network]).
           .row.justify-content-center
-            .col-lg-8: img(src='@/assets/curso/temas/tema2/5.svg', alt='')
+            .col-lg-8: img(src='@/assets/curso/temas/tema2/5.svg', alt='Representación de una interfaz LAN para un monitoreo de ed centralizada.')
     .row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta(style="background-color: #DDE6FE").p-5
           h5 Descentralizado
           p Existen varias estaciones de gestión de alto nivel denominadas servidores de gestión, cada cual puede gestionar directamente una parte de los agentes. Se utiliza especialmente para las redes de Área Amplia WAN (#[em Wide Area Network]).
           .row.justify-content-center
-            .col-lg-10: img(src='@/assets/curso/temas/tema2/6.svg', alt='')
+            .col-lg-10: img(src='@/assets/curso/temas/tema2/6.svg', alt='Representación de varias estaciones. Cada una gestiona directamente dispositivos específicos. Lo anterior representa un monitoreo de red descentralizado.')
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.1. Gestión de fallas
+      h2 2.1 Gestión de fallas
     .row.justify-content-center.mb-5
       .col-lg-4.col-8(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/7.jpg', alt='')
       .col-lg-8(data-aos="fade-left")
@@ -110,7 +110,7 @@
       div(titulo="Informar")
         p Una de las partes muy importantes es la notificación del fallo. Puesto que permite avisar de los problemas a los técnicos de asistencia técnica, a los administradores mediante correo electrónico o SMS, y de forma visual a los administradores de NOC.
       div(titulo="Resolver")
-        p  Se evalúa el origen del problema, y en su caso se subsana o se reemplaza. Es importante contar con un buen NMS (Network Management System) que permita resolver los problemas de forma sencilla y ágil, de forma automática e incluso poder aplicar el mantenimiento preventivo.
+        p  Se evalúa el origen del problema, y en su caso se subsana o se reemplaza. Es importante contar con un buen NMS (#[em Network Management System]) que permita resolver los problemas de forma sencilla y ágil, de forma automática e incluso poder aplicar el mantenimiento preventivo.
     .tarjeta.d-inline-block.color-acento-contenido.p-2.rounded-1(data-aos="fade-right").mb-4
       h3.text-white.mb-0.mx-3 Plataformas de administración de redes
     p.mb-5(data-aos='fade-right') Una plataforma para gestionar la red se puede considerar como una aplicación #[em software]  con funcionalidades básicas de gestión para los dispositivos que la conforman.
@@ -119,7 +119,7 @@
         .row.justify-content-center.mb-5
           .col-lg-5.mb-lg-0.mb-3
             img(src='@/assets/curso/temas/tema2/9.svg', alt='' style="width: 295px ").m-auto
-            .tarjeta.p-4(style="background-color: #CCBCFE")
+            .tarjeta.p-4(style="background-color: #CCBCFE; min-height: 400px")
               p La plataforma debe suministrar funciones básicas entre las cuales se tienen:
               ul.lista-ul--color
                 li.mb-0
@@ -147,7 +147,7 @@
           .col-lg-5.mb-lg-0.mb-3
             .contenido.h-100
               img(src='@/assets/curso/temas/tema2/10.svg', alt='' style="width: 295px ").m-auto
-              .tarjeta.p-4(style="background-color: #CCBCFE")
+              .tarjeta.p-4(style="background-color: #CCBCFE; min-height: 400px")
                 p Igualmente, debe mostrar estas características adicionales:
 
                 ul.lista-ul--color
@@ -323,10 +323,10 @@
               p.mb-0 Cuando se monitoriza el servidor, y sus servicios en general, es vital para la infraestructura anticiparse ante cualquier inconveniente. Durante este proceso se verifican también los códigos HTTP enviados del servidor, que suelen ser la forma más rápida de verificar el funcionamiento de estos. Así, pues, se envían notificaciones después del proceso anticipado del monitoreo, para que se puedan resolver las fallas en el sistema.
             .col-lg-4
               img(src='@/assets/curso/temas/tema2/26.svg', alt='' style="margin: -20px 0")
-    p.mb-5(data-aos='fade-right') La notificación proactiva de fallas consiste en generar notificaciones cuando los valores supervisados se acercan a los umbrales de fallas conocidos y no esperar a que el sistema avise que ya falló o, lo que es peor, descubrir por los clientes que la aplicación o el servicio se encuentran inactivos. Con este enfoque, se puede identificar y resolver problemas antes de que sean graves o comiencen a afectar a los usuarios. Con la 2014 DevOps Research and Assessment - DORA (Investigación y evaluación de DevOps de 2014 – DORA, (PDF), se demostró que la supervisión proactiva es un predictor importante del rendimiento de la entrega de software. Según la investigación de DORA, los equipos que usan notificaciones proactivas pueden diagnosticar y resolver problemas con rapidez. Cuando las fallas se informan mediante una fuente externa al equipo de operaciones, como el centro de operaciones de red (NOC) o, peor aún, por parte de los clientes y no mediante la supervisión interna, el rendimiento se ve afectado (Google Cloud, 2020).
+    p.mb-5(data-aos='fade-right') La notificación proactiva de fallas consiste en generar notificaciones cuando los valores supervisados se acercan a los umbrales de fallas conocidos y no esperar a que el sistema avise que ya falló o, lo que es peor, descubrir por los clientes que la aplicación o el servicio se encuentran inactivos. Con este enfoque, se puede identificar y resolver problemas antes de que sean graves o comiencen a afectar a los usuarios. Con la 2014 DevOps #[em Research and Assessment] - DORA (Investigación y evaluación de DevOps de 2014 – DORA, (PDF), se demostró que la supervisión proactiva es un predictor importante del rendimiento de la entrega de #[em software]. Según la investigación de DORA, los equipos que usan notificaciones proactivas pueden diagnosticar y resolver problemas con rapidez. Cuando las fallas se informan mediante una fuente externa al equipo de operaciones, como el centro de operaciones de red (NOC) o, peor aún, por parte de los clientes y no mediante la supervisión interna, el rendimiento se ve afectado (Google Cloud, 2020).
     Separador 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.2. Administración de configuración
+      h2 2.2 Administración de configuración
     .row.justify-content-center.mb-5
       .col-lg-2.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/27.svg', alt='')
       .col-lg-10
@@ -344,67 +344,67 @@
         .tarjeta.color-primario.p-3.rounded-3.h-100
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3 
-              .tarjeta.rounded-3(style="background-color: #B0C5FD ").p-1
+              .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px ")
                 p.mb-0.text-center 1.
             .col-lg-10
-              p.text-center.text-white.mb-0 Actualizar el #[em software.]
+              p.text-white.mb-0 Actualizar el #[em software.]
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3 
-              .tarjeta.rounded-3(style="background-color: #B0C5FD ").p-1
+              .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 2.
             .col-lg-10
-              p.text-center.text-white.mb-0 Controlar versiones de #[em software.]
+              p.text-white.mb-0 Controlar versiones de #[em software.]
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3 
-              .tarjeta.rounded-3(style="background-color: #B0C5FD ").p-1
+              .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 3.
             .col-lg-10
-              p.text-center.text-white.mb-0 Definir información de configuración de recursos.
+              p.text-white.mb-0 Definir información de configuración de recursos.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3 
-              .tarjeta.rounded-3(style="background-color: #B0C5FD ").p-1
+              .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 4.
             .col-lg-10
-              p.text-center.text-white.mb-0 Establecer los usuarios que pueden utilizar recursos específicos.
+              p.text-white.mb-0 Establecer los usuarios que pueden utilizar recursos específicos.
     .row.justify-content-center.mb-lg-3
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3 
-              .tarjeta.rounded-3(style="background-color: #B0C5FD ").p-1
+              .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 5.
             .col-lg-10
-              p.text-center.text-white.mb-0 Inicializar y finalizar los servicios de red
+              p.text-white.mb-0 Inicializar y finalizar los servicios de red
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3 
-              .tarjeta.rounded-3(style="background-color: #B0C5FD ").p-1
+              .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 6.
             .col-lg-10
-              p.text-center.text-white.mb-0 Comprobar la información de configuración en el momento de un ataque, para asegurar que continúa en estado correcto.
+              p.text-white.mb-0 Comprobar la información de configuración en el momento de un ataque, para asegurar que continúa en estado correcto.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3 
-              .tarjeta.rounded-3(style="background-color: #B0C5FD ").p-1
+              .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 7.
             .col-lg-10
-              p.text-center.text-white.mb-0 Modificar propiedades de recursos e informar al usuario de los cambios.
+              p.text-white.mb-0 Modificar propiedades de recursos e informar al usuario de los cambios.
       .col-lg-3.mb-lg-0.mb-3
         .tarjeta.color-primario.p-3.rounded-3.h-100
           .row.justify-content-center.align-items-center
             .col-2.mb-lg-0.mb-3 
-              .tarjeta.rounded-3(style="background-color: #B0C5FD ").p-1
+              .tarjeta.rounded-3(style="background-color: #B0C5FD; width: 30px; height: 30px  ").p-1
                 p.mb-0.text-center 8.
             .col-lg-10
-              p.text-center.text-white.mb-0 Realizar el arranque y parada de componentes específicos de forma remota.
+              p.text-white.mb-0 Realizar el arranque y parada de componentes específicos de forma remota.
     .row.justify-content-center.mb-5
       .col-lg-6(data-aos="fade-right").mb-lg-0.mb-3
         .tarjeta.color-acento-contenido.p-2.rounded-2
@@ -452,7 +452,7 @@
       .col-lg-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/31.jpg', alt='')
     Separador 
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.4. Gestión de software
+      h2 2.4 Gestión de software
     .row.justify-content-center.mb-5
       .col-lg-2.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/32.svg', alt='')
       .col-lg-10

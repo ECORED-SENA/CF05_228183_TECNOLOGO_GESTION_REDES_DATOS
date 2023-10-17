@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Administrar infraestructura tecnológica de red',
     descripcionCurso:
       'Este componente busca facilitar la apropiación de los conocimientos para gestionar la infraestructura tecnológica de red según modelos de referencia y procedimientos técnicos, implementando sistemas de monitoreo según estándares, políticas y recursos de la organización.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
