@@ -162,7 +162,10 @@
     .m-n.p-5.mb-5(style="background-color: #FEE0E7")
       .row.justify-content-center
         .col-lg-10
-          img(src='@/assets/curso/temas/tema1/11.svg', alt='')
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 1.
+            span Estructura del equipo de seguridad
+          img(src='@/assets/curso/temas/tema1/11.svg', alt='Estructura de un equipo de seguridad según su función (operativa, estratégica o táctica) y a su área (organizativa, lógica, legal o física).')
     p.mb-5(data-aos='fade-right') Sumado a esto, el equipo de seguridad posee tres áreas de responsabilidad: elaboración de políticas, práctica y respuesta.
     .row.justify-content-center.mb-5
       .col-lg-4(data-aos="fade-right").mb-lg-0.mb-3

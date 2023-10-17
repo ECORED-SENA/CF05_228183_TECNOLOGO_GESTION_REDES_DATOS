@@ -16,26 +16,26 @@
           br
           br
           |A continuación se exponen algunos aspectos en la gestión del rendimiento.
-    .card-icon.mb-3
+    .card-icon.mb-3(data-aos="fade-right")
       .card-icon__icon: img(src='@/assets/curso/temas/tema3/2.svg', alt='')
       .card-icon__content
         h5 Acuerdo de nivel de servicio
         p Es un contrato pactado entre el proveedor de servicios y los clientes internos o externos donde se mencionan los servicios adquiridos y/o prestados por el proveedor, además define los estándares que el proveedor va a implementar en sus servicios.
-    .card-icon.mb-3
+    .card-icon.mb-3(data-aos="fade-right")
       .card-icon__icon: img(src='@/assets/curso/temas/tema3/3.svg', alt='')
       .card-icon__content
         h5 Gestión de la seguridad
-        p La seguridad en los elementos hardware o físicos existentes y en los elementos software existentes en la red, son dos puntos clave que se deben tratar o emplear, debido a que el mundo está repleto de sistemas, y cada día se implementan muchos más, dejando a la sociedad más expuesta a ataques, pérdidas de información, violación de sus datos financieros, suplantación de datos para fines no legales, entre infinidad de opciones de inseguridad informática.
-    .card-icon.mb-3
+        p La seguridad en los elementos #[em hardware] o físicos existentes y en los elementos #[em software] existentes en la red, son dos puntos clave que se deben tratar o emplear, debido a que el mundo está repleto de sistemas, y cada día se implementan muchos más, dejando a la sociedad más expuesta a ataques, pérdidas de información, violación de sus datos financieros, suplantación de datos para fines no legales, entre infinidad de opciones de inseguridad informática.
+    .card-icon.mb-3(data-aos="fade-right")
       .card-icon__icon: img(src='@/assets/curso/temas/tema3/4.svg', alt='')
       .card-icon__content
         h5 Autenticación
 
-        p Es el proceso que se encarga de validar la existencia de un usuario dentro de un sistema, se puede llevar a cabo mediante la implementación de usuario y contraseña; este usuario puede ser el número de documento del usuario, email, nickname (o nombre de usuario).
+        p Es el proceso que se encarga de validar la existencia de un usuario dentro de un sistema, se puede llevar a cabo mediante la implementación de usuario y contraseña; este usuario puede ser el número de documento del usuario, email, #[em nickname] (o nombre de usuario).
           br
           br
           |Otro mecanismo de autenticación puede ser biométrico, por huella dactilar, lector del iris, detección del rostro entre otros, este tipo de autenticación está siendo utilizado por los grandes fabricantes de dispositivos móviles, quienes a menudo se preocupan por la seguridad de los sistemas y también por la velocidad de respuesta de estos mecanismos.
-    .card-icon.mb-5
+    .card-icon.mb-5(data-aos="fade-right")
       .card-icon__icon: img(src='@/assets/curso/temas/tema3/5.svg', alt='')
       .card-icon__content
         h5 Autorización
@@ -56,7 +56,7 @@
                 | Ataque para obtener información.
               li.mb-0
                 i.fas.fa-circle.fa-xs
-                |  Ataque de acceso no autorizado.
+                | Ataque de acceso no autorizado.
               li.mb-0
                 i.fas.fa-circle.fa-xs
                 | Ataque con revelación de información.
@@ -77,7 +77,7 @@
                 | Identificación o autenticación seguras.
               li.mb-0
                 i.fas.fa-circle.fa-xs
-                | Cortafuegos (firewalls).
+                | Cortafuegos (#[em firewalls]).
               li.mb-0
                 i.fas.fa-circle.fa-xs
                 | Criptografía.

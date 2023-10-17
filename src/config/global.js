@@ -153,12 +153,12 @@ export default {
     {
       tema: '2. Gestión y monitoreo',
       referencia:
-        'SJteam. (2020). <em>Monitorea tu red sin ser experto en seguridad informática.</em> [Video]. YouTube.',
+        'SJteam. (2020). <em>Monitorea tu red sin ser experto en seguridad informática.</em>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=Oseq3wh2J4c&ab_channel=SJteam',
     },
     {
-      tema: '3. Gestión del rendimient',
+      tema: '3. Gestión del rendimiento',
       referencia:
         'Díaz, G., Alzórriz, I., Sancristóbal, E., y Alonso M. (2014). <em>Procesos y herramientas para la seguridad de redes.</em> UNED',
       tipo: 'Libro',

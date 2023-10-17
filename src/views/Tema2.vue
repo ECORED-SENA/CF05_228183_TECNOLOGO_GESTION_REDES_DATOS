@@ -8,7 +8,7 @@
       h1 Gestión y monitoreo
     .row.justify-content-center.mb-5
       .col-lg-4.col-8(data-aos="fade-right").mb-lg-0.mb-3: img(src='@/assets/curso/temas/tema2/1.jpg', alt='')
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         p Estos dos conceptos a tratar son totalmente diferentes y se definirán a continuación.
           br
           br
@@ -30,7 +30,7 @@
           img(src='@/assets/curso/temas/tema2/3.svg', alt='' style="width: 80px").mb-3
           h6 Agente
           p Poseen bases de datos local de información de administración. Es un elemento activo encargado de responder a las solicitudes de acción iniciadas en la estación de gestión y de manera asíncrona, proporciona información importante y no solicitada a la estación de gestión. Se trata de un módulo del #[em software] de gestión de red implantado en los dispositivos a gestionar. Los recursos de red a ser gestionados aparecen como objetos que hacen parte de la MIB (#[em Management Information Base] – Base de Información de Gestión).
-    .tarjeta.p-4.h-100(style="background-color:#CCBCFE ").mb-5
+    .tarjeta.p-4.h-100(style="background-color:#CCBCFE " data-aos="fade-right").mb-5
       .row.align-items-center
         .col-xl-1.mb-lg-0.mb-3
           img(src='@/assets/curso/temas/tema2/4.svg', alt='' style="width: 80px").mb-2
@@ -57,19 +57,19 @@
     .m-n.p-5.mb-5(style="background-color: #FEE0E7 ")
       //todo! MAQUETAR LA FIGURA 1 
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura 1. 
+        h5 Figura 2. 
         span Áreas funcionales de la gestión de servicio
     p.mb-5 Para el monitoreo de la red existen dos esquemas para gestionarla, esto de acuerdo con su tamaño, que se pueden nombrar como: centralizado y descentralizado.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta(style="background-color: #DDE6FE").p-5
+        .tarjeta(style="background-color: #DDE6FE" data-aos="zoom-in").p-5
           h5 Centralizado
           p Existe solo una estación de gestión para el control de los recursos de la red, es utilizado especialmente en las redes de Área Local LAN (#[em Local Area Network]).
           .row.justify-content-center
             .col-lg-8: img(src='@/assets/curso/temas/tema2/5.svg', alt='Representación de una interfaz LAN para un monitoreo de ed centralizada.')
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta(style="background-color: #DDE6FE").p-5
+        .tarjeta(style="background-color: #DDE6FE" data-aos="zoom-in").p-5
           h5 Descentralizado
           p Existen varias estaciones de gestión de alto nivel denominadas servidores de gestión, cada cual puede gestionar directamente una parte de los agentes. Se utiliza especialmente para las redes de Área Amplia WAN (#[em Wide Area Network]).
           .row.justify-content-center
@@ -93,8 +93,9 @@
           .row.justify-content-center.align-items-center
             .col-lg-8
               p.mb-0 Se pueden definir las fallas o eventos de una red como aquellos sucesos que interfieren en el correcto funcionamiento de la red, y por consiguiente disminuyen significativamente su rendimiento. Los ejemplos de fallos más comunes incluyen fallos en el #[em hardware], en el cableado, interferencia inalámbrica, así como un cambio en el estado del puerto, saturación de ancho de banda o, lo que es peor, la pérdida de conectividad.
-            .col-lg-4
-              img(src='@/assets/curso/temas/tema2/8.svg', alt='' style="margin: -50px 0")
+            .col-lg-4.col-8
+              img(src='@/assets/curso/temas/tema2/8.svg', alt='' style="margin: -50px 0").d-lg-block.d-none
+              img(src='@/assets/curso/temas/tema2/8.svg', alt='' ).d-block.d-lg-none
     p.mb-5(data-aos='fade-right') El proceso de gestión de fallas puede verse modificado en cuestión de la plataforma utilizada para ello, pero comúnmente se siguen los siguientes pasos:
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--rojo")
       div(titulo="Detectar la localización del fallo")
@@ -114,7 +115,7 @@
     .tarjeta.d-inline-block.color-acento-contenido.p-2.rounded-1(data-aos="fade-right").mb-4
       h3.text-white.mb-0.mx-3 Plataformas de administración de redes
     p.mb-5(data-aos='fade-right') Una plataforma para gestionar la red se puede considerar como una aplicación #[em software]  con funcionalidades básicas de gestión para los dispositivos que la conforman.
-    .contenido(style="background-color: #E3EEFC; margin-top: 100px").p-4.h-100.mb-5
+    .contenido(style="background-color: #E3EEFC; margin-top: 100px" data-aos="zoom-in").p-4.h-100.mb-5
       .contenido-up(style="margin-top: -100px").p-3
         .row.justify-content-center.mb-5
           .col-lg-5.mb-lg-0.mb-3
@@ -181,18 +182,18 @@
     p.mb-5(data-aos='fade-right') A continuación, se puede visualizar la interfaz gráfica principal donde se visualiza el rendimiento para un radioenlace con equipos Rocket M5 de Ubiquiti, visualizando desde la estación o receptor.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.p-5(style="background-color: #FEE0E7")
+        .tarjeta.p-5(style="background-color: #FEE0E7" data-aos="zoom-in")
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 2. 
+            h5 Figura 3. 
             span Interfaz gráfica Rocket M5
           img(src='@/assets/curso/temas/tema2/11.jpg', alt='Captura de pantalla en la que se muestra el rendimiento del fabricante Ubiquiti Networks.')
           figcaption Nota. Tomado de Ubitiqui Networks, Inc. (2006-2013)
     p.mb-5(data-aos='fade-right') De otro lado, se puede observar también para este caso los datos del punto de acceso a la red o transmisor con todas las características del mismo.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.p-5(style="background-color: #FEE0E7")
+        .tarjeta.p-5(style="background-color: #FEE0E7" data-aos="zoom-in")
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 3. 
+            h5 Figura 4. 
             span Resumen información del punto de acceso
           img(src='@/assets/curso/temas/tema2/12.jpg', alt='Captura de pantalla en la que se muestra el resumen de información del punto de acceso de Ubiquiti Networks.')
           figcaption Nota. Tomado de Ubitiqui Networks, Inc. (2006-2013)
@@ -212,22 +213,22 @@
           |El siguiente diagrama muestra los procedimientos generales para la resolución de problemas incluyendo las etapas básicas.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.p-5(style="background-color: #FEE0E7")
+        .tarjeta.p-5(style="background-color: #FEE0E7" data-aos="zoom-in")
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 4. 
+            h5 Figura 5. 
             span Resolución de problemas
           img(src='@/assets/curso/temas/tema2/14.svg', alt='Diagrama de flujo para resolución de problemas.')
     p.mb-5(data-aos='fade-right') Al resolver problemas debe completarse la documentación correspondiente y esta documentación debe incluir toda la información posible sobre lo siguiente:
     .row.justify-content-center.mb-5
-      .col-lg-4.mb-lg-0.mb-3
+      .col-xl-4.mb-xl-0.mb-3
         .tarjeta.color-primario.overflow-hidden.d-flex.align-items-center
           img(src='@/assets/curso/temas/tema2/15.svg', alt='' style="width: 100px")
           p.mb-0.mx-3.text-white El problema encontrado.
-      .col-lg-4.mb-lg-0.mb-3
+      .col-xl-4.mb-xl-0.mb-3
         .tarjeta.color-primario.overflow-hidden.d-flex.align-items-center
           img(src='@/assets/curso/temas/tema2/16.svg', alt='' style="width: 100px")
           p.mb-0.mx-3.text-white Los pasos dados para determinar la causa del problema.
-      .col-lg-4.mb-lg-0.mb-3
+      .col-xl-4.mb-xl-0.mb-3
         .tarjeta.color-primario.overflow-hidden.d-flex.align-items-center
           img(src='@/assets/curso/temas/tema2/17.svg', alt='' style="width: 100px")
           p.mb-0.mx-3.text-white  Los pasos para corregir el problema y asegurarse de que no vuelva a ocurrir.
@@ -238,8 +239,9 @@
           .row.justify-content-center.align-items-center
             .col-lg-8
               p.mb-0 #[b Recopilación de información:] recopilar información directamente de los afectados es un buen punto de partida. En las preguntas se pueden incluir los siguientes temas: experiencias del usuario final, síntomas observados, mensajes de error e información sobre cambios recientes de configuración en dispositivos o aplicaciones.
-            .col-lg-4
-              img(src='@/assets/curso/temas/tema2/18.svg', alt='' style="margin: -20px 0")
+            .col-lg-4.col-8
+              img(src='@/assets/curso/temas/tema2/18.svg', alt='' style="margin: -20px 0").d-lg-block.d-none
+              img(src='@/assets/curso/temas/tema2/18.svg', alt='' ).d-block.d-lg-none
     p.mb-5(data-aos='fade-right') Hay varias técnicas para resolver problemas, entre ellas:
     .m-n.p-5.mb-5(style="background-color: #fee0e7; margin-top: 200px")
       .contenido(style="margin-top: -200px")
@@ -271,7 +273,7 @@
           |#[span.color-morado ¿En qué consiste el llamado problema físico?]
           br
           |A continuación, se amplía sobre esta temática y algunos comandos que se usan para la resolución de problemas:
-      .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/22.jpg', alt='')
+      .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/22.jpg', alt='').d-lg-block.d-none
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -293,9 +295,9 @@
           |La figura a continuación muestra un esquema general de un sistema de detección y diagnóstico de fallas.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.p-5(style="background-color: #FEE0E7")
+        .tarjeta.p-5(style="background-color: #FEE0E7" data-aos="zoom-in")
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 5. 
+            h5 Figura 6. 
             span Sistema de detección y diagnóstico de fallas
           img(src='@/assets/curso/temas/tema2/24.svg', alt='Diagrama en el que se muestra el proceso de detección y diagnóstico de fallas para su reconfiguración y control.')
     p.mb-5(data-aos='fade-right') En este esquema, las entradas y salidas del bloque proceso-controlador alimentan un sistema de supervisión encargado de detectar la presencia de fallas y diagnosticar su naturaleza. Con esta información es posible corregir los parámetros del controlador de forma manual o automatizada o intervenir en el proceso para corregir los problemas detectados.
@@ -333,9 +335,9 @@
         p Proceso en el cual se preparan los dispositivos y es en la configuración donde se determina el comportamiento de los datos en la red. La administración enmarca las siguientes funciones: inicializar, desconectar o desactivar de forma ordenada la red o parte de ella, mantenimiento y adición de componentes, reconfigurar, definir o cambiar parámetros de configuración, denominar elementos de la red, conocer qué dispositivos tiene la red y configurar #[em hardware] y #[em software] de dichos dispositivos.
     .row.justify-content-center.mb-5
       .col-lg-10
-        .tarjeta.p-5(style="background-color: #FEE0E7")
+        .tarjeta.p-5(style="background-color: #FEE0E7" data-aos="zoom-in")
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 6. 
+            h5 Figura 7. 
             span Administración de configuración
           img(src='@/assets/curso/temas/tema2/28.svg', alt='Esquema en el que se muestra la administración y monitoreo de redes.')
     p.mb-5(data-aos='fade-right') Para la administración de configuración se tienen las tareas siguientes:
@@ -406,18 +408,20 @@
             .col-lg-10
               p.text-white.mb-0 Realizar el arranque y parada de componentes específicos de forma remota.
     .row.justify-content-center.mb-5
+      .col-lg-6(data-aos="fade-right").mb-lg-0.mb-4
+        .rounded-2(style="background-color: #A6EAFE").h-100
+          .tarjeta.color-acento-contenido.p-2.rounded-2
+            h4.mb-0.text-white Estándares de configuración
+          .p-4
+            img(src='@/assets/curso/temas/tema2/29.svg', alt='' style="width: 295px").m-auto
+            p.mt-3 En la administración existen herramientas básicas como: monitorear la red para verificar elementos activos, con qué características obtener la información, de qué modo están conectados entre sí los diferentes elementos, esta información se mantiene para ayudar a otras funciones de administración.
       .col-lg-6(data-aos="fade-right").mb-lg-0.mb-3
-        .tarjeta.color-acento-contenido.p-2.rounded-2
-          h4.mb-0.text-white Estándares de configuración
-        .rounded-2.p-3(style="background-color: #A6EAFE").h-100
-          img(src='@/assets/curso/temas/tema2/29.svg', alt='' style="width: 295px").m-auto
-          p.mt-3 En la administración existen herramientas básicas como: monitorear la red para verificar elementos activos, con qué características obtener la información, de qué modo están conectados entre sí los diferentes elementos, esta información se mantiene para ayudar a otras funciones de administración.
-      .col-lg-6(data-aos="fade-right").mb-lg-0.mb-3
-        .tarjeta.color-acento-contenido.p-2.rounded-2
-          h4.mb-0.text-white Administración de archivos de configuración
-        .rounded-2.p-3(style="background-color: #A6EAFE").h-100
-          img(src='@/assets/curso/temas/tema2/30.svg', alt='' style="width: 295px").m-auto
-          p.mt-3 Se establece la configuración de los dispositivos activos cambiando la configuración por defecto con la nueva configuración, teniendo esto como la configuración original del dispositivo. Es importante guardar la configuración antes de reiniciar el equipo debido a que se puede perder la configuración en caso contrario.
+        .rounded-2(style="background-color: #A6EAFE").h-100
+          .tarjeta.color-acento-contenido.p-2.rounded-2
+            h4.mb-0.text-white Administración de archivos de configuración
+          .p-4
+            img(src='@/assets/curso/temas/tema2/30.svg', alt='' style="width: 295px").m-auto
+            p.mt-3 Se establece la configuración de los dispositivos activos cambiando la configuración por defecto con la nueva configuración, teniendo esto como la configuración original del dispositivo. Es importante guardar la configuración antes de reiniciar el equipo debido a que se puede perder la configuración en caso contrario.
     Separador 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.3 Gestión de inventario
