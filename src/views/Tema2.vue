@@ -264,8 +264,8 @@
     p.mb-5(data-aos='fade-right') A continuación, se muestra en un video los menús de gestión y administración en el sistema Air OS de un radioenlace específico entre dos puntos, realizado con equipos Rocket M5 de Ubiquiti Networks.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2XRJQZ4BYtQ?si=CWxGhWxNinSGEwTN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Gestión AIROS Ubiquiti
     .tarjeta.d-inline-block.color-acento-contenido.p-2.rounded-1(data-aos="fade-right").mb-4
       h3.text-white.mb-0.mx-3 Infraestructura de resolución de problemas
     .row.justify-content-center.mb-5
@@ -340,8 +340,8 @@
       .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/22.jpg', alt='').d-lg-block.d-none
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/MEpXEjyh9VI?si=cb87yx7LOeLnklJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Infraestructura de resolución de problemas: ¿En qué consiste el llamado problema físico?
     .tarjeta.d-inline-block.color-acento-contenido.p-2.rounded-1(data-aos="fade-right").mb-4
       h3.text-white.mb-0.mx-3 Detección de fallas y notificaciones
     .row.justify-content-center.mb-5
