@@ -374,7 +374,7 @@
               img(src='@/assets/curso/temas/tema1/30.svg' alt='' style="width: 273px; margin-top: -70px").mb-4
               .texts
                 h5 Postura
-                p Los datos que sí estuvieron comprometidos (También se debe comparar la postura de la red con la postura de seguridad deseada, pues en cualquier momento, un ente externo especialista en seguridad puede intentar penetrar en la red y probar la postura de la red y la respuesta de seguridad de la organización. Es recomendable para las redes de alta disponibilidad, realizar esta prueba cada año.
+                p También se debe comparar la postura de la red con la postura de seguridad deseada, pues en cualquier momento, un ente externo especialista en seguridad puede intentar penetrar en la red y probar la postura de la red y la respuesta de seguridad de la organización. Es recomendable para las redes de alta disponibilidad, realizar esta prueba cada año.
           .col-lg-4.mb-lg-0.mb-3
             .tarjeta.p-4.d-flex.flex-column.h-100.align-items-center(style="background-color: #b0c5fd; margin-top: 30px").w-100
               img(src='@/assets/curso/temas/tema1/31.svg' alt='' style="width: 273px; margin-top: -70px").mb-4
