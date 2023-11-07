@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="493" viewBox="0 0 1240 493">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_374960" data-name="Rectángulo 374960" width="1240" height="490" transform="translate(140.333 81)" fill="#1e5af9"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_374958" data-name="Rectángulo 374958" width="98.561" height="98.561" transform="translate(0 69.693) rotate(-45)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="bg-slyder" transform="translate(-180 -1216)">
+    <path id="Trazado_801366" data-name="Trazado 801366" d="M10,0H1230c5.523,0,10,3.989,10,8.909V481.091c0,4.92-4.477,8.909-10,8.909H10c-5.523,0-10-3.989-10-8.909V8.909C0,3.989,4.477,0,10,0Z" transform="translate(180 1216)" fill="#ccbcfe"/>
+    <g id="Enmascarar_grupo_1059108" data-name="Enmascarar grupo 1059108" transform="translate(39.667 1138)" clip-path="url(#clip-path)">
+      <g id="Grupo_1067149" data-name="Grupo 1067149">
+        <g id="Grupo_1067144" data-name="Grupo 1067144" opacity="0.2">
+          <line id="Línea_1741" data-name="Línea 1741" y2="507" transform="translate(360.333 80.5)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Línea_1742" data-name="Línea 1742" y2="507" transform="translate(800.333 80.5)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Línea_1743" data-name="Línea 1743" y2="507" transform="translate(580.333 80.5)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Línea_1744" data-name="Línea 1744" y2="507" transform="translate(1020.333 80.5)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Línea_1747" data-name="Línea 1747" y2="507" transform="translate(1460.333 80.5)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Línea_1745" data-name="Línea 1745" y2="507" transform="translate(1240.333 80.5)" fill="none" stroke="#fff" stroke-width="1"/>
+          <line id="Línea_1746" data-name="Línea 1746" y2="507" transform="translate(1680.333 80.5)" fill="none" stroke="#fff" stroke-width="1"/>
+        </g>
+        <g id="Elipse_8499" data-name="Elipse 8499" transform="translate(1258.333 -25)" fill="none" stroke="#fff" stroke-width="70" opacity="0.1">
+          <circle cx="127" cy="127" r="127" stroke="none"/>
+          <circle cx="127" cy="127" r="92" fill="none"/>
+        </g>
+        <g id="Elipse_8500" data-name="Elipse 8500" transform="translate(179.333 461)" fill="none" stroke="#fff" stroke-width="70" opacity="0.1">
+          <circle cx="126.5" cy="126.5" r="126.5" stroke="none"/>
+          <circle cx="126.5" cy="126.5" r="91.5" fill="none"/>
+        </g>
+        <g id="Grupo_1067146" data-name="Grupo 1067146" transform="translate(93.333 35.001)">
+          <g id="Grupo_1067145" data-name="Grupo 1067145" clip-path="url(#clip-path-2)">
+            <circle id="Elipse_8504" data-name="Elipse 8504" cx="64.275" cy="64.275" r="64.275" transform="translate(5.418 5.417)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+            <circle id="Elipse_8505" data-name="Elipse 8505" cx="51.194" cy="51.194" r="51.194" transform="translate(18.5 18.499)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+            <circle id="Elipse_8506" data-name="Elipse 8506" cx="38.113" cy="38.113" r="38.113" transform="translate(31.58 31.58)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+            <circle id="Elipse_8507" data-name="Elipse 8507" cx="25.032" cy="25.032" r="25.032" transform="translate(44.661 44.66)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+            <circle id="Elipse_8508" data-name="Elipse 8508" cx="11.951" cy="11.951" r="11.951" transform="translate(57.743 57.742)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          </g>
+        </g>
+        <g id="Grupo_1067148" data-name="Grupo 1067148" transform="translate(1292.64 483.001)">
+          <g id="Grupo_1067147" data-name="Grupo 1067147" clip-path="url(#clip-path-2)">
+            <circle id="Elipse_8509" data-name="Elipse 8509" cx="64.275" cy="64.275" r="64.275" transform="translate(5.418 5.417)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+            <circle id="Elipse_8510" data-name="Elipse 8510" cx="51.194" cy="51.194" r="51.194" transform="translate(18.5 18.499)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+            <circle id="Elipse_8511" data-name="Elipse 8511" cx="38.113" cy="38.113" r="38.113" transform="translate(31.58 31.58)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+            <circle id="Elipse_8512" data-name="Elipse 8512" cx="25.032" cy="25.032" r="25.032" transform="translate(44.661 44.66)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+            <circle id="Elipse_8513" data-name="Elipse 8513" cx="11.951" cy="11.951" r="11.951" transform="translate(57.743 57.742)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.5"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
