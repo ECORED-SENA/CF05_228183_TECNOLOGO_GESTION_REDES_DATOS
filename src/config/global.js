@@ -265,23 +265,7 @@ export default {
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
-        {
-          nombre: 'Deivis Eduard Ramírez Martíne',
-          cargo: 'Diseñador instruccional',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Bogotá D.C.',
-        },
-        {
-          nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Evaluadora instruccional',
-          centro: 'Centro de gestión industrial - Regional distrito Capital',
-        },
-        {
-          nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Corrector de estilo',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional distrito Capital',
-        },
+
         {
           nombre: 'Miroslava González Hernández',
           cargo: 'Diseñadora instruccional',
@@ -302,6 +286,12 @@ export default {
         {
           nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Desarrollador Fullstack',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres ',
+          cargo: 'Storyboard e Ilustración',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
