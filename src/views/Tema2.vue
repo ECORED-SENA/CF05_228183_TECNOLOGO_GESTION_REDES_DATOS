@@ -24,7 +24,7 @@
         .tarjeta.p-4.h-100(style="background-color:#CCBCFE ")
           img(src='@/assets/curso/temas/tema2/2.svg', alt='' style="width: 80px").mb-3
           h6 Gestor o estación de gestión
-          p Llamado también NMS (#[em Network Monitoring System] - Sistema de Monitoreo de Red) actúa como como interfaz entre el sistema de gestión de red y el administrador de red posee una base de datos de información para gestión de red sacada de las bases de datos de todas las entidades a gestionar en la red. Ejecutan aplicaciones que supervisan, permanentemente, todos los dispositivos.
+          p Llamado también NMS (#[em Network Monitoring System] - Sistema de Monitoreo de Red) actúa como interfaz entre el sistema de gestión de red y el administrador de red, posee una base de datos de información para gestión de red sacada de las bases de datos de todas las entidades a gestionar en la red. Ejecutan aplicaciones que supervisan, permanentemente, todos los dispositivos.
       .col-lg-6(data-aos="fade-right")
         .tarjeta.p-4.h-100(style="background-color:#CCBCFE ")
           img(src='@/assets/curso/temas/tema2/3.svg', alt='' style="width: 80px").mb-3
@@ -122,6 +122,7 @@
             p.mb-0 Borrar
           .contenedor-cards__card1(style="background-color: #e9e2ff")
             p.mb-0 Cancelar Get
+      figcaption Nota. Adaptado de Molero, L. (2010) 
 
     p.mb-5 Para el monitoreo de la red existen dos esquemas para gestionarla, esto de acuerdo con su tamaño, que se pueden nombrar como: centralizado y descentralizado.
     .row.justify-content-center.mb-5
@@ -130,14 +131,23 @@
           h5 Centralizado
           p Existe solo una estación de gestión para el control de los recursos de la red, es utilizado especialmente en las redes de Área Local LAN (#[em Local Area Network]).
           .row.justify-content-center
-            .col-lg-8: img(src='@/assets/curso/temas/tema2/5.svg', alt='Representación de una interfaz LAN para un monitoreo de ed centralizada.')
+            .col-lg-8
+              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                h5 Figura 3.
+                span Administrador de red centralizado
+              img.mb-3(src='@/assets/curso/temas/tema2/5.svg', alt='Representación de una interfaz LAN para un monitoreo de ed centralizada.')
+              ficaption Nota. Adaptado de Millán, R. (1999) 
     .row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta(style="background-color: #DDE6FE" data-aos="zoom-in").p-5
           h5 Descentralizado
           p Existen varias estaciones de gestión de alto nivel denominadas servidores de gestión, cada cual puede gestionar directamente una parte de los agentes. Se utiliza especialmente para las redes de Área Amplia WAN (#[em Wide Area Network]).
           .row.justify-content-center
-            .col-lg-10: img(src='@/assets/curso/temas/tema2/6.svg', alt='Representación de varias estaciones. Cada una gestiona directamente dispositivos específicos. Lo anterior representa un monitoreo de red descentralizado.')
+            .col-lg-10
+              .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+                h5 Figura 4.
+                span Puestos de administración descentralizado
+              img(src='@/assets/curso/temas/tema2/6.svg', alt='Representación de varias estaciones. Cada una gestiona directamente dispositivos específicos. Lo anterior representa un monitoreo de red descentralizado.')
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1 Gestión de fallas
@@ -206,9 +216,9 @@
                   i.fa-solid.fa-diagram-project
                   | Menús configurables del sistema.
 
-                li.mb-0
+                li.mb-0.d-flex
                   i.fa-solid.fa-diagram-project
-                  | Registro de eventos (Event Log).
+                  p.mb-0 Registro de eventos (#[em Event Log]).
           .col-lg-5.mb-lg-0.mb-3
             .contenido.h-100
               img(src='@/assets/curso/temas/tema2/10.svg', alt='' style="width: 295px ").m-auto
@@ -248,16 +258,16 @@
       .col-lg-10
         .tarjeta.p-5(style="background-color: #FEE0E7" data-aos="zoom-in")
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 3. 
+            h5 Figura 5. 
             span Interfaz gráfica Rocket M5
           img(src='@/assets/curso/temas/tema2/11.jpg', alt='Captura de pantalla en la que se muestra el rendimiento del fabricante Ubiquiti Networks.')
-          figcaption Nota. Tomado de Ubitiqui Networks, Inc. (2006-2013)
+          figcaption Nota. Tomado de Ubitiqui Networks, Inc. (2006-2013) 
     p.mb-5(data-aos='fade-right') De otro lado, se puede observar también para este caso los datos del punto de acceso a la red o transmisor con todas las características del mismo.
     .row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta.p-5(style="background-color: #FEE0E7" data-aos="zoom-in")
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 4. 
+            h5 Figura 6. 
             span Resumen información del punto de acceso
           img(src='@/assets/curso/temas/tema2/12.jpg', alt='Captura de pantalla en la que se muestra el resumen de información del punto de acceso de Ubiquiti Networks.')
           figcaption Nota. Tomado de Ubitiqui Networks, Inc. (2006-2013)
@@ -279,7 +289,7 @@
       .col-lg-10
         .tarjeta.p-5(style="background-color: #FEE0E7" data-aos="zoom-in")
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 5. 
+            h5 Figura 7. 
             span Resolución de problemas
           img(src='@/assets/curso/temas/tema2/14.svg', alt='Diagrama de flujo para resolución de problemas.')
     p.mb-5(data-aos='fade-right') Al resolver problemas debe completarse la documentación correspondiente y esta documentación debe incluir toda la información posible sobre lo siguiente:
@@ -319,7 +329,7 @@
             .tarjeta.p-4.d-flex.flex-column.h-100(style="background-color: #b0c5fd; px").w-100
               img(src='@/assets/curso/temas/tema2/20.svg' alt='' style="width: 60px").mb-4
               .texts
-                p.mb-0 #[b Ascendente:] empieza con la capa física y sigue hacia arriba. La capa física tiene que ver con el hardware y las conexiones de cables.
+                p.mb-0 #[b Ascendente:] empieza con la capa física y sigue hacia arriba. La capa física tiene que ver con el #[em hardware] y las conexiones de cables.
           .col-lg-4.mb-lg-0.mb-3
             .tarjeta.p-4.d-flex.flex-column.h-100(style="background-color: #b0c5fd; px").w-100
               img(src='@/assets/curso/temas/tema2/21.svg' alt='' style="width: 60px").mb-4
@@ -361,9 +371,10 @@
       .col-lg-10
         .tarjeta.p-5(style="background-color: #FEE0E7" data-aos="zoom-in")
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 6. 
+            h5 Figura 8. 
             span Sistema de detección y diagnóstico de fallas
           img(src='@/assets/curso/temas/tema2/24.svg', alt='Diagrama en el que se muestra el proceso de detección y diagnóstico de fallas para su reconfiguración y control.')
+          figcaption Nota. Hurtado, C., L., Villarreal-López, E., y Villarreal-López, L. (2016).  
     p.mb-5(data-aos='fade-right') En este esquema, las entradas y salidas del bloque proceso-controlador alimentan un sistema de supervisión encargado de detectar la presencia de fallas y diagnosticar su naturaleza. Con esta información es posible corregir los parámetros del controlador de forma manual o automatizada o intervenir en el proceso para corregir los problemas detectados.
       br
       br
@@ -380,7 +391,7 @@
       .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/25.jpg', alt='')
     .tarjeta.d-inline-block.color-acento-contenido.p-2.rounded-1(data-aos="fade-right").mb-4
       h3.text-white.mb-0.mx-3 Monitoreo y notificación proactiva de fallas
-    p.mb-5(data-aos='fade-right') El monitoreo de red consiste en realizar periódicamente o en tiempo real mediciones del comportamiento de la red, esto mediante el uso de un software para la facilidad y precisión de los informes de estado. Un sistema de monitorización de red busca problemas causados por la sobrecarga y/o fallas en los servidores, como también problemas de la infraestructura de red u otros dispositivos.
+    p.mb-5(data-aos='fade-right') El monitoreo de red consiste en realizar periódicamente o en tiempo real mediciones del comportamiento de la red, esto mediante el uso de un #[em software] para la facilidad y precisión de los informes de estado. Un sistema de monitorización de red busca problemas causados por la sobrecarga y/o fallas en los servidores, como también problemas de la infraestructura de red u otros dispositivos.
     .row.justify-content-center.mb-5
       .col-lg-10
         .tarjeta.p-4(style="background-color: #A6EAFE")
@@ -389,7 +400,7 @@
               p.mb-0 Cuando se monitoriza el servidor, y sus servicios en general, es vital para la infraestructura anticiparse ante cualquier inconveniente. Durante este proceso se verifican también los códigos HTTP enviados del servidor, que suelen ser la forma más rápida de verificar el funcionamiento de estos. Así, pues, se envían notificaciones después del proceso anticipado del monitoreo, para que se puedan resolver las fallas en el sistema.
             .col-lg-4
               img(src='@/assets/curso/temas/tema2/26.svg', alt='' style="margin: -20px 0")
-    p.mb-5(data-aos='fade-right') La notificación proactiva de fallas consiste en generar notificaciones cuando los valores supervisados se acercan a los umbrales de fallas conocidos y no esperar a que el sistema avise que ya falló o, lo que es peor, descubrir por los clientes que la aplicación o el servicio se encuentran inactivos. Con este enfoque, se puede identificar y resolver problemas antes de que sean graves o comiencen a afectar a los usuarios. Con la 2014 DevOps #[em Research and Assessment] - DORA (Investigación y evaluación de DevOps de 2014 – DORA, (PDF), se demostró que la supervisión proactiva es un predictor importante del rendimiento de la entrega de #[em software]. Según la investigación de DORA, los equipos que usan notificaciones proactivas pueden diagnosticar y resolver problemas con rapidez. Cuando las fallas se informan mediante una fuente externa al equipo de operaciones, como el centro de operaciones de red (NOC) o, peor aún, por parte de los clientes y no mediante la supervisión interna, el rendimiento se ve afectado (Google Cloud, 2020).
+    p.mb-5(data-aos='fade-right') La notificación proactiva de fallas consiste en generar notificaciones cuando los valores supervisados se acercan a los umbrales de fallas conocidos y no esperar a que el sistema avise que ya falló o, lo que es peor, descubrir por los clientes que la aplicación o el servicio se encuentran inactivos. Con este enfoque, se puede identificar y resolver problemas antes de que sean graves o comiencen a afectar a los usuarios. Con la 2014 DevOps #[em Research and Assessment] - DORA (Investigación y evaluación de DevOps de 2014 – DORA), (PDF), se demostró que la supervisión proactiva es un predictor importante del rendimiento de la entrega de #[em software]. Según la investigación de DORA, los equipos que usan notificaciones proactivas pueden diagnosticar y resolver problemas con rapidez. Cuando las fallas se informan mediante una fuente externa al equipo de operaciones, como el centro de operaciones de red (NOC) o, peor aún, por parte de los clientes y no mediante la supervisión interna, el rendimiento se ve afectado (Google Cloud, 2020).
     Separador 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2 Administración de configuración
@@ -401,9 +412,10 @@
       .col-lg-10
         .tarjeta.p-5(style="background-color: #FEE0E7" data-aos="zoom-in")
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-            h5 Figura 7. 
+            h5 Figura 9. 
             span Administración de configuración
           img(src='@/assets/curso/temas/tema2/28.svg', alt='Esquema en el que se muestra la administración y monitoreo de redes.')
+          figcaption Nota. Adaptado de Nieto, R. (2016).
     p.mb-5(data-aos='fade-right') Para la administración de configuración se tienen las tareas siguientes:
     .row.justify-content-center.mb-lg-3
       .col-lg-3.mb-lg-0.mb-3
@@ -493,7 +505,7 @@
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right")
         .tarjeta.p-4.rounded-2(style="background-color: #A6EAFE ")
-          p Los siguientes se consideran software para gestión de inventario de redes:
+          p Los siguientes se consideran #[em software] para gestión de inventario de redes:
           ul.lista-ul--color
             li.mb-0
               i.fa-solid.fa-diagram-project
@@ -520,7 +532,7 @@
       .col-lg-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/31.jpg', alt='')
     Separador 
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.4 Gestión de software
+      h2 2.4 Gestión de #[em software]
     .row.justify-content-center.mb-5
       .col-lg-2.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema2/32.svg', alt='')
       .col-lg-10

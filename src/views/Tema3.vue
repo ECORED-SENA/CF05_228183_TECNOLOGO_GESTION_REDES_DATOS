@@ -31,7 +31,7 @@
       .card-icon__content
         h5 Autenticación
 
-        p Es el proceso que se encarga de validar la existencia de un usuario dentro de un sistema, se puede llevar a cabo mediante la implementación de usuario y contraseña; este usuario puede ser el número de documento del usuario, email, #[em nickname] (o nombre de usuario).
+        p Es el proceso que se encarga de validar la existencia de un usuario dentro de un sistema, se puede llevar a cabo mediante la implementación de usuario y contraseña; este usuario puede ser el número de documento del usuario, #[em email], #[em nickname] (o nombre de usuario).
           br
           br
           |Otro mecanismo de autenticación puede ser biométrico, por huella dactilar, lector del iris, detección del rostro entre otros, este tipo de autenticación está siendo utilizado por los grandes fabricantes de dispositivos móviles, quienes a menudo se preocupan por la seguridad de los sistemas y también por la velocidad de respuesta de estos mecanismos.

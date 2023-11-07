@@ -185,14 +185,14 @@ export default {
   referencias: [
     {
       referencia:
-        'Díaz, G., Alzórriz, I., Sancristóbal, E., y Alonso M. (2014). Procesos y herramientas para la seguridad de redes. UNED.',
-      link: '',
-    },
-    {
-      referencia:
         'Cisco. (2005). Política de seguridad de la red: informe oficial de mejores prácticas.',
       link:
         'https://www.cisco.com/c/es_mx/support/docs/availability/high-availability/13601-secpol.html',
+    },
+    {
+      referencia:
+        'Díaz, G., Alzórriz, I., Sancristóbal, E., y Alonso M. (2014). Procesos y herramientas para la seguridad de redes. UNED.',
+      link: '',
     },
     {
       referencia:
@@ -204,6 +204,27 @@ export default {
       referencia:
         'Hurtado, C., L., Villarreal-López, E., y Villarreal-López, L. (2016). Detección y diagnóstico de fallas mediante técnicas de inteligencia artificial, un estado del arte. DYNA, 83(199).',
       link: 'https://www.redalyc.org/journal/496/49648868002/html/',
+    },
+    {
+      referencia:
+        'Millán Tejedor, R.. J. (1999). Gestión de red. Windows nt/2000, Prensa Técnica, S.A., 12. ',
+      link: 'https://www.ramonmillan.com/tutoriales/gestionred.php',
+    },
+    {
+      referencia: 'Molero, L. (2010). Planificación y Gestión de red. URBE.',
+      link: '',
+    },
+    {
+      referencia:
+        'Nieto, R. (2016). Gestión de red. Manejo de incidencias con RT. [PPT]. ',
+      link:
+        'https://docplayer.es/488170-Gestion-de-red-manejo-de-incidencias-con-rt.html#google_vignette',
+    },
+    {
+      referencia:
+        'Sogeti, E. (2013). «Evaluación de seguridad de los Sistemas Informáticos: políticas, estándares y análisis de riesgos». QA:News. ',
+      link:
+        'https://qanewsblog.com/2013/04/16/evaluacion-de-la-seguridad-de-los-sistemas-informaticos-politicas-estandares-y-analisis-de-riesgos/',
     },
   ],
   creditos: [
